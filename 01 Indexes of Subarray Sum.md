@@ -25,14 +25,14 @@
   2. keep in mind that ` l < r ` and `r < n`
   3. Total sum to achieve is S which lets say 12 as in example1  `s = 12` and take `currSum = 0` to sum up each element upon iteration.
   4. Now `l` and `r` are in same index and points to element 0. the `currSum =arr[r]` which is not equal to 12.
-  5. So, we move `r` to next index. Nor `r` has `2` and put `2` into `currSum` and check of it **equal** to `s`. No its not 
+  5. So, we move `r` to next index. Now `r` has `2` and put `2` into `currSum` and check of it **equal** to `s`. No its not 
   cause, **`1+2 = 3`** is still not equal to `12`.
   6. We repeat this until `12` is obtained with `l` being in `index 0` as of now.
-  7. With `l` in index `0` if the **`currSum = s` is not obtained** or **`currSum` becomes greated then `s`**. We move `l` to `index 1`
+  7. With `l` in index `0` if the **`currSum = s` is not obtained** or **`currSum` becomes greated then `s`**. We move `l` to index `1`
 
   >## NOTE
   >
-  > Since the output require both the `l` and `r` index or `-1` in case of no match. Its dynamic and can't use normal arry. We have to use `ArrayList` to add the index as result and print the ArrayList
+  > Since the output require both the `l` and `r` index or `-1` in case of no match. Its dynamic and can't use normal array. We have to use `ArrayList` to add the index as result and print the ArrayList
   >
   > We can also use `while loop`
 
