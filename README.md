@@ -1,5 +1,5 @@
 # Java-Coding
-Hey this repo contains explanation of each coding problem that I'm soliving as I'm restarting my journey towards coding
+Hey this repo contains detailed explanation on each of the coding problem solved. This will be useful for 1st timers as well as for whom want to refresh their DSA 
 
 1. [Indexes of Subarray Sum](https://github.com/lakshmir1098/Java-Coding/blob/main/01%20Indexes%20of%20Subarray%20Sum.md)
 2. [Smallest subarray with sum greater than x](https://github.com/lakshmir1098/Java-Coding/blob/main/02%20Smallest%20subarray%20with%20sum%20greater%20than%20x.md)
