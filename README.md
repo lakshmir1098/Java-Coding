@@ -1,7 +1,7 @@
 # Java-Coding
 Hey this repo contains detailed explanation on each of the coding problem solved. This will be useful for 1st timers as well as for whom want to refresh their DSA 
 
-1. [Indexes of Subarray Sum](https://github.com/lakshmir1098/Java-Coding/blob/main/01%20Indexes%20of%20Subarray%20Sum.md)
+1. [Indexes of Subarray Sum](01 Arrays-IndexesOfSubarraySum.md )
 2. [Smallest subarray with sum greater than x](https://github.com/lakshmir1098/Java-Coding/blob/main/02%20Smallest%20subarray%20with%20sum%20greater%20than%20x.md)
 3. [Two Repeated Elements](https://github.com/lakshmir1098/Java-Coding/blob/main/03%20Two%20Repeated%20Elements.md)
 4. [Majority Element](https://github.com/lakshmir1098/Java-Coding/blob/main/04%20Majority%20Element.md)
