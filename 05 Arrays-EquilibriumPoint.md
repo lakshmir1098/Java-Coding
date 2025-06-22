@@ -1,4 +1,4 @@
-## Question 
+## Question:
 Given an array arr of non-negative numbers. The task is to find the first equilibrium point in an array. The equilibrium point in an array is an index (or position) such that the sum of all elements before that index is the same as the sum of elements after it.
 
 Note: Return equilibrium point in 1-based indexing. Return -1 if no such point exists. 
@@ -14,11 +14,11 @@ Explanation: Since there's only one element hence it's only the equilibrium poin
 Output: -1
 Explanation: There is no equilibrium point in the given array.
 
-## Solution Explanation
+## Solution Explanation:
 1. As the question says, `left_sum == right_sum` is something we have to achieve.
 2. We are going to sum all elemnets array into `right_sum` and then, on each iteration `minus` from `right_sum` and `add ` into `left_sum` while finding `left_sum == right_sum`.
 
-## Solution
+## Solution:
 ```java 
     public static long equilibriumPoint(long arr[]) {
         int n = arr.length;

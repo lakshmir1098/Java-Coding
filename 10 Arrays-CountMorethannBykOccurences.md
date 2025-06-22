@@ -1,7 +1,7 @@
-## Question
+## Question:
 Given an array arr of size N and an element k. The task is to find the count of elements in the array that appear more than n/k times.
 
-## Example
+## Examples:
 
 1. Input:
 N = 8
@@ -24,10 +24,10 @@ Explanation: In the given array, 3 and 2 are the only elements that appears more
 Your Task:
 The task is to complete the function countOccurence() which returns count of elements with more than n/k times appearance.
 
-## Solution Explanation
+## Solution Explanation:
 Whenver you see duplicates, remeber Hash and since you want cound and not remove them So we use `hashMap` here.
 
-## Solution
+## Solution:
 ```java
 class Solution 
 {

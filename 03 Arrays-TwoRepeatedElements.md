@@ -1,4 +1,4 @@
-## Question
+## Question:
 You are given an integer n and an integer array arr of size n+2. All elements of the array are in the range from 1 to n. Also, all elements occur once except two numbers which occur twice. Find the two repeating numbers.
 Note: Return the numbers in their order of appearing twice. So, if x and y are repeating numbers, and x's second appearance comes before the second appearance of y, then the order should be (x, y).
 
@@ -11,12 +11,12 @@ Explanation: In the given array, 1 and 3 are repeated two times, and as 1's seco
 Output: 2 1
 Explanation: In the given array, 1 and 2 are repeated two times and second occurence of 2 comes before 1. So the output is 2 1.
 
-## Solution Explanation
+## Solution Explanation:
 NOTE: Whenever you want to find a repeated or a element that is already present like duplicate. Always use `HashSet<>`
 
 1. So we are using `HashSet` here. with that if the element in given `arr` contains on the `HashSet` already add it to newly created array `a` or else add it to `HashSet`. By that you can find repeaseted elements
 
-## Solution
+## Solution:
 ```java
 public int[] twoRepeated(int n, int arr[]) {
         int a[] = new int[2];

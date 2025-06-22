@@ -1,4 +1,4 @@
-## Question
+## Question:
 Given a positive integer N, find the last digit of the Nth term from the Fibonacci series.
 Note: For N=0 you have to return 0.
  
@@ -20,7 +20,7 @@ Explanation:
 14th Fibonacci number is 377
 It's last digit is 7
 
-## Solution Explanation
+## Solution Explanation:
 The Fibonacci sequence starts with:
 
 F(0) = 0
@@ -39,7 +39,7 @@ So, the sequence begins: 0, 1, 1, 2, 3, 5, 8, ...
 1. The use of % 10 in the line int `next = (a + b) % 10;` within the loop of your Fibonacci calculates the last digit of each Fibonacci number rather than the entire number itself
 2. If you were to apply % 10 only at the end (when returning), you would have the entire Fibonacci number, which could be very large that the Fibonacci numbers can exceed the limits of standard `int`. You can also solve this by using `long` or `BigInteger`.
 
-## Solution
+## Solution:
 ```java
 static int fib(int n){
     if (n <= 0) {

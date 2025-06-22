@@ -1,4 +1,4 @@
-## Question
+## Question:
 Given an array arr of positive integers. Reverse every sub-array group of size k.
 
 Note: If at any instance, k is greater or equal to the array size, then reverse the entire array. You shouldn't return any array, modify the given array in place.
@@ -11,7 +11,7 @@ Explanation: First group consists of elements 1, 2, 3. Second group consists of 
 Output: [9, 8, 6, 5]
 Explnation: Since k is greater than array size, the entire array is reversed.
 
-## Solution Explanation
+## Solution Explanation:
 1. First find if k < n,
     1. for each iteration you have to find the `left` and `right` bound to reverse.
     2. While `left` = `i`
@@ -22,7 +22,7 @@ Explnation: Since k is greater than array size, the entire array is reversed.
     5. for `left` and `right`  boundarie we swap elements to reverse the subarray or use default method.
 2. if k >= n, reverse whole array.
 
-## Solution
+## Solution:
 
 ```java
 class Solution {

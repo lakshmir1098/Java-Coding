@@ -1,7 +1,7 @@
-## Question
+## Question:
 Given an array arr of n positive integers, your task is to find all the leaders in the array. An element of the array is considered a leader if it is greater than all the elements on its right side or if it is equal to the maximum element on its right side. The rightmost element is always a leader.
 
-## Examples
+## Examples:
 
 1. Input: n = 6, arr[] = {16,17,4,3,5,2}
 Output: 17 5 2
@@ -16,13 +16,13 @@ Explanation: When an array is sorted in increasing order, only the rightmost ele
 Output: 30 10 10 5
 Explanation: When an array is sorted in non-increasing order, all elements are leaders.
 
-## Solution Explanation
+## Solution Explanation:
 
 1. whenever a question has maximum or greater then you will have a vriable to store `max_value`
 
 The trick here is instead of iterating from 1 to n here we have to interate in reverse order as we are finging right most side from left.
 
-## Solution
+## Solution:
 ```java
 class Solution {
     // Function to find the leaders in the array.

@@ -1,4 +1,4 @@
-## Question
+## Question:
 Given an array arr containing only 0s, 1s, and 2s. Sort the array in ascending order.
 
 ## Examples:
@@ -12,7 +12,7 @@ Explanation: 0s 1s and 2s are segregated into ascending order.
 
 Expected Time Complexity: O(n)
 
-## Solution Explanation
+## Solution Explanation:
 1. You may think this is simple sorting. Yes `Arrays.sort()` will ofcourse give you the result. But this has the time complexity of `O(nlogn) ` which is greater than expected `O(n)`.
 2. So, there are 2 more ways to solve this. Let see the 2<sup>nd</sup> way of doing this.
     
@@ -37,7 +37,7 @@ Lets say, you have problem where you have to sort by red ball 10 and blue ball 1
     We only iterate  `mid` pointer keeping `low` and `high` only `increament` and `decrement` resp.
 
 
-## Solution 
+## Solution:
 ```java
 class Solution {
     // Function to sort an array of 0s, 1s, and 2s

@@ -38,7 +38,7 @@
 
 
 
-## Solution
+## Solution:
 
 ```java
 public static ArrayList<Integer> subarraySum(int[] arr, int n, int s) {

@@ -1,4 +1,4 @@
-## Question
+## Question:
 Given an array arr. Find the majority element in the array. If no majority exists, return -1.
 
 A majority element in an array is an element that appears strictly more than arr.size()/2 times in the array.
@@ -15,13 +15,13 @@ Explanation: Since, 7 is single element and present more than n/2 times, so it i
 Output: -1
 Explanation: Since, no element is present more than n/2 times, so there is no majority element.
 
-## Solution Explanation
+## Solution Explanation:
 1. Like how we use `HashSet` to find duplicates, Use `HashMap` to count the no. of time elements is repeated.
 2. In `HashMap` we use  `hm.getOrDefault(arr[i], 0)` when you want to retrieve the current count and `hm.getOrDefault(arr[i], 0) + 1` when you want to increment that count.
 3. `hm.put(arr[i], count + 1)` to update the count.
 4. As per this question to find majority element, the element should be repeated more then half the lenght of the array.
 
-## Solution
+## Solution:
 ```java
 static int majorityElement(int arr[]) {
         HashMap<Integer, Integer> hm = new HashMap<>();
