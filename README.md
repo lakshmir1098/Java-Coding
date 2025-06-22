@@ -19,7 +19,11 @@ Hey this repo contains detailed explanation on each of the coding problem solved
 13. [Kadane's Algorithm for finding Max subarray sum](https://github.com/lakshmir1098/Java-Coding/blob/main/13%20Arrays-Kadane'sAlgorithm.md)
 
 ### LinkedList
+#### Basic:
 14. [Insert At End / Append without lenght known](https://github.com/lakshmir1098/Java-Coding/blob/main/14%20LinkedList-InsertAtEnd.md)
-15. [Node at a given Index]()
-16. [Insert node in the middle of the LinkedList]()
-17. [Modular Node]()
+15. [Node at a given Index](https://github.com/lakshmir1098/Java-Coding/blob/main/15%20Linkedlist-NodeAtGivenIndex.md)
+16. [Insert node in the middle of the LinkedList](https://github.com/lakshmir1098/Java-Coding/blob/main/16%20LinedList-InsertInTheMiddle.md)
+17. [Modular Node](https://github.com/lakshmir1098/Java-Coding/blob/main/17%20LinkedList-modularNode.md)
+18. [Identical Linkedlist]()
+
+#### Easy:
