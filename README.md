@@ -22,8 +22,8 @@ Hey this repo contains detailed explanation on each of the coding problem solved
 #### Basic:
 14. [Insert At End / Append without lenght known](https://github.com/lakshmir1098/Java-Coding/blob/main/14%20LinkedList-InsertAtEnd.md)
 15. [Node at a given Index](https://github.com/lakshmir1098/Java-Coding/blob/main/15%20Linkedlist-NodeAtGivenIndex.md)
-16. [Insert node in the middle of the LinkedList](https://github.com/lakshmir1098/Java-Coding/blob/main/16%20LinedList-InsertInTheMiddle.md)
+16. [Insert node in the middle of the LinkedList](https://github.com/lakshmir1098/Java-Coding/blob/main/16%20LinkedList-InsertInTheMiddle.md)
 17. [Modular Node](https://github.com/lakshmir1098/Java-Coding/blob/main/17%20LinkedList-modularNode.md)
-18. [Identical Linkedlist]()
+18. [Identical Linkedlist](https://github.com/lakshmir1098/Java-Coding/blob/main/18%20Linkedlist-IdenticalLL.md)
 
 #### Easy:
